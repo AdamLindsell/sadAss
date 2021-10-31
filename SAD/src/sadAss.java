@@ -514,7 +514,7 @@ public class sadAss {
                 "AS partCount ON Topics.TopicID = partCount.TopicID \n" +
                 "AND Topics.NumParts = partCount.numParts) GROUP BY TestID)\n" +
                 "AS topicCount ON Tests.TestID = topicCount.TestID AND Tests.numTopics = topicCount.numTopics) GROUP BY BadgeID)\n" +
-                "AS testCount ON Badges.BadgeID = testCount.BadgeID AND testCount.numTest = 14;");
+                "AS testCount ON Badges.BadgeID = testCount.BadgeID AND testCount.numTest = 10;");
             System.out.println("Badges acquired:");
             
             while (rs.next()){
@@ -759,7 +759,7 @@ public class sadAss {
                 "AS partCount ON Topics.TopicID = partCount.TopicID \n" +
                 "AND Topics.NumParts = partCount.numParts) GROUP BY TestID)\n" +
                 "AS topicCount ON Tests.TestID = topicCount.TestID AND Tests.numTopics = topicCount.numTopics) GROUP BY BadgeID)\n" +
-                "AS testCount ON Badges.BadgeID = testCount.BadgeID AND testCount.numTest = 14;");
+                "AS testCount ON Badges.BadgeID = testCount.BadgeID AND testCount.numTest = 10;");
             System.out.println("Badges acquired:");
             
             while (rs.next()){
